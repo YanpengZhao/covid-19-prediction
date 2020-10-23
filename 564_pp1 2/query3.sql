@@ -1,0 +1,1 @@
+SELECT COUNT(item_id) FROM (SELECT item_id, COUNT(category_id) AS c FROM Includes GROUP BY item_id) WHERE c = 4;

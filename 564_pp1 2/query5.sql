@@ -1,0 +1,1 @@
+SELECT COUNT(seller_id) FROM Item, User WHERE Item.seller_id = User.user_id AND User.rating>1000;
