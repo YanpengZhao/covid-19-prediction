@@ -1,0 +1,1 @@
+SELECT COUNT (DISTINCT seller_id) FROM Bid, Item WHERE Bid.bidder_id=Item.seller_id;

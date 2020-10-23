@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM User,Location WHERE User.location_id=Location.location_id AND Location.location="New York";
